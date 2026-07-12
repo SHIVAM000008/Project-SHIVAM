@@ -1,0 +1,205 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#f4f4f4;
+
+}
+
+/* Header */
+
+header{
+
+    background:#232f3e;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 50px;
+
+}
+
+/* Logo */
+
+.logo{
+
+    flex:1;
+
+}
+
+.logo h1{
+
+    color:white;
+
+    font-size:32px;
+
+}
+
+/* Search */
+
+.search{
+
+    flex:2;
+
+}
+
+.search form{
+
+    display:flex;
+
+}
+
+.search input{
+
+    flex:1;
+
+    padding:12px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:4px 0 0 4px;
+
+    font-size:16px;
+
+}
+
+.search button{
+
+    padding:12px 20px;
+
+    border:none;
+
+    background:#ff9900;
+
+    color:black;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    border-radius:0 4px 4px 0;
+
+}
+
+/* Menu */
+
+.menu{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+.menu nav{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.menu a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:0.3s;
+
+}
+
+.menu a:hover{
+
+    color:#ff9900;
+
+}
+
+/* Main */
+
+main{
+
+    padding:60px;
+
+}
+
+/* Hero Section */
+
+.hero{
+
+    background:white;
+
+    padding:60px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+}
+
+.hero h2{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+    margin-bottom:30px;
+
+    color:#555;
+
+}
+
+.hero button{
+
+    padding:15px 30px;
+
+    background:#ff9900;
+
+    border:none;
+
+    border-radius:5px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+.hero button:hover{
+
+    background:#e68a00;
+
+}
